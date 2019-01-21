@@ -148,6 +148,10 @@ address {
     margin: 50px 0;
 }
 
+img {
+    width: 100%
+}
+
 /*----------------------Base Header - Footer Styles--------------------------*/
 
 header,
@@ -250,6 +254,8 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/background1.png') center no-repeat;
+    background-size: cover;
 }
 
 .hero-area {
